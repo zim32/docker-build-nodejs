@@ -5,7 +5,7 @@ RUN cd ~/ && apt-get update && apt-get install -y \
 	sudo \
 	curl \
 	git && \
-	curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash - && \
+	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && \
 	apt-get install nodejs -y && \
 	npm install npm -g && \
 	npm install pm2 -g
