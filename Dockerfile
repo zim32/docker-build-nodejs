@@ -1,4 +1,4 @@
-FROM zim32/debian:v1
+FROM zim32/debian:latest
 
 RUN cd ~/ && apt-get update && apt-get install -y \
 	build-essential \
